@@ -1,0 +1,366 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.item{
+  color: black;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 12px 35px 12px 35px;
+  margin: 0px 20px 40px 20px;
+  box-shadow: 0 0px 20px rgba(0, 65, 178, 0.4);
+  -webkit-transition: all .15s;
+  -moz-transition: all .15s;
+  transition: all .15s;
+}
+
+.item:hover {
+  box-shadow: 0 0px 20px rgba(0, 65, 178, 0.4), inset 0 0 7px rgba(0, 65, 178, 0.5);
+  border-radius: 3px;
+}
+
+hr {
+  margin: 0 0 30px 0
+}
+h1 {
+  margin-bottom: 10px;
+}
+
+.smallBox {
+  width: 60%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.93);
+  padding: .1em 2rem 2rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4), inset 0 0 7px rgba(0, 65, 178, 0.5);
+}
+
+.title {
+  margin: 2px 0 15px 0;
+  border-bottom: 2px solid white;
+}
+
+p input {
+  font-size: 1em;
+}
+
+.loginDiv p {
+  color: black
+}
+
+.goleft {
+  text-align: left;
+}
+
+.goright {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.goright:hover {
+  box-shadow: 0 0px 20px rgba(0, 255, 21, 0.5);
+}
+.goright:focus,
+.goright:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.alignRight {
+  text-align: right;
+  margin-top: 0;
+}
+
+.loginDiv{
+  width: 40%;
+  color: rgb(21, 21, 21);
+  background-color: rgba(255, 255, 255, 0.772);
+  padding: 1px 40px 10px 40px;
+  margin: 40px auto;
+  border: 8px dashed black;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 2em #000000aa);
+}
+
+.newsurveydiv{
+  color: rgb(28, 28, 28);
+  background-color: rgba(128, 128, 128, 0.95);
+  padding: 1px 100px 10px 100px;
+  margin: 40px auto;
+  border: 5px dashed rgb(255, 217, 0);
+  border-radius: 10px;
+  filter: drop-shadow(0 0 1em #00000075);
+  width: 40%;
+}
+
+.newsurveydiv button {
+  filter: drop-shadow(0 0 10px #00ff0075);
+}
+
+.newsurveydiv textarea {
+  width: 100%;
+  margin-top: 10px;
+  height: 200px;
+}
+
+.mysurveydiv{
+  color: rgb(21, 21, 21);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1px 35px 20px 35px;
+  min-height: 400px;
+  margin: 40px auto;
+  border: 3px dotted rgb(0, 179, 255);
+  border-radius: 5px;
+  filter: drop-shadow(0 0 1.5em #0088ff4c);
+  width: 60%;
+  z-index: 80;
+}
+
+.myprofilediv {
+  color: rgb(21, 21, 21);
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 1px 30px 30px 30px;
+  margin: 40px auto;
+  border: 5px dashed rgb(206, 127, 0);
+  border-radius: 5px;
+  filter: drop-shadow(0 0 2em #ff6f0079);
+  width: 40%;
+}
+
+table{
+  width: 100%;
+  text-align: left;
+  margin-top: 30px;
+  font-size: 1.2em;
+  border-collapse: collapse;
+}
+
+.innerTable
+{
+  margin-top: 0;
+}
+
+tr:nth-child(even) {background: #78787859}
+
+table td {
+  padding: 10px 2px 10px 5px;
+}
+
+.nameColumn{
+  width: 350px;
+  padding: 0px 0px 10px 5px;
+}
+
+.actionsColumn{
+  width: 200px;
+  padding: 0px 0px 10px 15px;
+}
+
+.sad {
+  font-size: 5em;
+  margin: 0;
+}
+.sad_num {
+  margin-top: 50px;
+  font-size: 7em;
+}
+
+.errorMsg {
+  background-color: #ff616194;
+  border-radius: 5px;
+}
+
+.formtitle {
+  margin: 0 0 2px 0;
+  font-size: 3em;
+}
+
+.formlittletitle {
+  margin: 0 30px 20px 30px;
+}
+
+.titleHR {
+  width: auto;
+  margin: 20px;
+}
+
+.success {
+  background-color: rgba(0, 255, 0, 0.413);
+  border-radius: 5px;
+}
+
+.buttons {
+  text-align: left;
+}
+
+.mysurvey_button {
+  padding: .5em .6em .5em .6em;
+  border-radius: 50%;
+  margin: .3em;
+  background-color: black;
+  color: white;
+}
+
+.mysurvey_button_edit {
+  padding: .5em .6em .5em .6em;
+  border-radius: 50%;
+  margin: .3em;
+  background-color: rgb(0, 174, 255);
+  color: white;
+}
+
+.mysurvey_button_delete {
+  padding: .5em .6em .5em .6em;
+  border-radius: 50%;
+  margin: .3em;
+  background-color: red;
+  color: white;
+}
+
+.mysurvey_button:hover, .mysurvey_button_edit:hover, .mysurvey_button_delete:hover {
+  border: 3px solid rgb(255, 255, 255);
+  margin: .19em;
+}
+
+.verticalAlign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.changePage {
+  font-size: .8em;
+  width: 100px;
+  height: 60px;
+  color:rgb(66, 66, 66);
+  font-weight: 600;
+  background-color: transparent;
+  border-radius: 2px;
+}
+
+.active {
+  background-color: rgb(0, 157, 255);
+  color: white;
+}
+
+.fulfilled {
+  background-color: rgb(3, 186, 0);
+  color: white;
+}
+
+.specialInput{
+  width: 300px;
+  height: 2em;
+  background-color: rgba(0, 191, 205, 0.5);
+  color: black;
+  font-size: 1.2em;
+  border-radius: 2px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1.5px solid grey;
+}
+
+.refreshButton{
+  background-color: rgb(253, 253, 253);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border: 2px solid darkblue;
+  position: fixed;
+  top: 180px;
+  right: 40px;
+  font-weight: 500;
+  font-size: 1.4em;
+  padding: 0;
+}
+
+.innerHR {
+  margin: 0
+}
+
+#snackbar {
+  visibility: hidden;
+  color: #fff;
+  background-color: #333;
+  min-width: 250px;
+  margin-left: -125px;
+  border-radius: 2px;
+  padding: 16px;
+  text-align: center;
+  left: 50%;
+  bottom: 30px;
+  z-index: 1;
+  position: fixed;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
